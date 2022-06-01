@@ -1,0 +1,48 @@
+.num_et_reseau_sociaux {
+  background-color: rgb(195, 195, 72);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  padding: 1px 20px;
+}
+
+.reseaux_sociaux a {
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 100%;
+  padding: 3px;
+  background-color: white;
+}
+
+.num_et_reseau_sociaux .reseaux_sociaux a i {
+  padding: 10px;
+  text-align: center;
+  font-size: 100%;
+  border-radius: 100%;
+}
+
+.facebook:hover {
+  background: #3b5999;
+  color: #fff;
+}
+
+.twitter:hover {
+  background: #4a9cec;
+  color: #fff;
+}
+
+.instagram:hover {
+  background: #d6274d;
+  color: #fff;
+}
+
+.linkedin:hover {
+  background: #1260a2;
+  color: #fff;
+}
+
+.google:hover {
+  background: #ce332a;
+  color: #fff;
+}
