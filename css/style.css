@@ -47,54 +47,52 @@
   color: #fff;
 }
 
-.numero{
-    font-size: 30px;
+.numero {
+  font-size: 30px;
 }
 
-.d-block{
-    height: 400px;
+.d-block {
+  height: 400px;
 }
 
-.affiche{
-
+.affiche {
   position: absolute;
-  width: 50% ;
+  width: 50%;
   height: 50%;
   background-color: #1260a2;
   top: 20%;
   left: 10%;
   z-index: 100;
   opacity: 0.8;
-  background-blend-mode:darken;
-
-
+  background-blend-mode: darken;
 }
 
-
-.owl-carousel{
+.owl-carousel {
   background-color: rebeccapurple;
   margin: auto;
   padding-top: 5%;
 }
 
-.card  {
-  
-  background-color: #899cab;
-
+.titre_card{
+  text-align: center;
 }
 
-.container_card img{
+.card {
+  background-color: #899cab;
+}
+
+.container_card img {
   display: block;
   height: 100px;
   width: 20px;
 }
 
-.tarif{
+.tarif {
   display: flex;
   justify-content: space-between;
 }
 
-
-.kg , .prix{
+.kg,
+.prix {
   font-size: 25px;
 }
