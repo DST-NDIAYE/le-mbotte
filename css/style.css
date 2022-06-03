@@ -96,3 +96,28 @@
 .prix {
   font-size: 25px;
 }
+
+#section2{
+  text-align: center;
+  margin-top: 30px;
+}
+
+.les_images{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 2%;
+}
+
+.les_images div {
+  margin-bottom: 2% ;
+}
+
+#localisation{
+  text-align: center;
+  margin: 2%;
+}
+
+iframe{
+  width: 100%;
+}
