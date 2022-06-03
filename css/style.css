@@ -54,3 +54,22 @@
 .d-block{
     height: 400px;
 }
+
+.affiche{
+
+  position: absolute;
+  width: 50% ;
+  height: 50%;
+  background-color: #1260a2;
+  top: 20%;
+  left: 10%;
+  z-index: 100;
+  opacity: 0.8;
+  background-blend-mode:darken;
+
+
+}
+
+#section1{
+  background-color: #1260a2;
+}
