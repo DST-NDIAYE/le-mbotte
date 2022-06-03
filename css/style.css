@@ -70,6 +70,32 @@
 
 }
 
-#section1{
-  background-color: #1260a2;
+
+.owl-carousel{
+  background-color: rebeccapurple;
+  margin: auto;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.card  {
+  
+  background-color: #899cab;
+
+}
+
+.container_card img{
+  display: block;
+  height: 100px;
+  width: 20px;
+}
+
+.tarif{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.kg , .prix{
+  font-size: 25px;
 }
