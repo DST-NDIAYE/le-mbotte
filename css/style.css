@@ -1,9 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+body{
+  background-image: url("../assets/images/bg1.jpg");
+  background-size: cover;
+
+}
+
 .num_et_reseau_sociaux {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 50px;
+  height: 80px;
   padding: 1px 20px;
+  background-color: #140502;
+  flex-wrap: wrap;
 }
 
 .reseaux_sociaux a {
@@ -47,11 +56,59 @@
 
 .numero {
   font-size: 30px;
+  color: white;
+  letter-spacing: 15px;
+  font-weight: bold;
+  
+  
 }
 
 .d-block {
   height: 400px;
 }
+
+nav{
+
+  background-color: #410D07;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+
+nav div{
+
+  font-size: 40px;
+  font-family: 'Shadows Into Light', cursive;
+  font-weight: bold;
+  color: white;
+
+}
+
+nav ul{
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  align-items: center;
+  width:70%;
+  font-size: 180%;
+  color: white;
+
+}
+
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  margin-top: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 20px ;
+  margin-right: 20px ;
+  color: white
+
+;
+}
+
 
 .affiche {
   position: absolute;
