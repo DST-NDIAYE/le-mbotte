@@ -203,8 +203,16 @@ nav ul li a {
 #localisation {
   text-align: center;
   margin: 2%;
-  background-color: #1260a2;
+  background-color: #410d07;
 }
+#localisation h1{
+  margin: 20px;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+
 
 iframe {
   width: 90%;
@@ -295,7 +303,7 @@ iframe {
 .information h1::after , form h1::after{
   content: "";
   width: 80px;
-  background-color: #140502;
+  background-color: #e83a17;
   position: absolute;
   height: 5px;
   display: block;
@@ -326,4 +334,8 @@ form{
   padding: 20px;
   text-align: left;
   color: black;
+}
+
+footer{
+  color: white;
 }
