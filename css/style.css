@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
-body{
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+
+body {
   background-image: url("../assets/images/bg1.jpg");
   background-size: cover;
-
 }
 
 .num_et_reseau_sociaux {
@@ -59,41 +60,34 @@ body{
   color: white;
   letter-spacing: 15px;
   font-weight: bold;
-  
-  
 }
 
 .d-block {
   height: 400px;
 }
 
-nav{
-
-  background-color: #410D07;
+nav {
+  background-color: #410d07;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-
 }
 
-nav div{
-
+nav div {
   font-size: 40px;
-  font-family: 'Shadows Into Light', cursive;
+  font-family: "Shadows Into Light", cursive;
   font-weight: bold;
   color: white;
-
 }
 
-nav ul{
+nav ul {
   display: flex;
   justify-content: flex-end;
   list-style: none;
   align-items: center;
-  width:70%;
+  width: 70%;
   font-size: 180%;
   color: white;
-
 }
 
 nav ul li a {
@@ -102,56 +96,74 @@ nav ul li a {
   margin-top: 6px;
   padding-left: 10px;
   padding-right: 10px;
-  margin-left: 20px ;
-  margin-right: 20px ;
-  color: white
-
-;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: white;
 }
-
 
 .affiche {
   position: absolute;
-  width: 50%;
-  height: 50%;
+  text-align: center;
+  color: #fff;
   top: 20%;
   left: 10%;
   z-index: 100;
-  opacity: 0.8;
-  background-blend-mode: darken;
-  background-color: #ce332a;
-  -webkit-box-shadow: 3px 13px 36px 2px rgba(0,0,0,0.95); 
-box-shadow: 3px 13px 36px 2px rgba(0,0,0,0.95);
+  line-height: 70px;
+  background-color: rgba(196, 41, 41, 0.5);
+  border-radius: 20px;
+}
+
+.affiche .dibiterie {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 80px;
+  font-weight: bold;
+}
+.affiche .commande {
+  font-size: 40px;
+}
+
+.affiche .commande span {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.affiche .locale {
+  font-size: 50px;
 }
 
 .owl-carousel {
-  background-color: rgb(224, 216, 232);
   margin: auto;
-  padding-top: 5%;
+  padding: 2%;
 }
 
-.titre_card{
+
+.section1{
+
+  background-color: #410d07;
+}
+
+.section1 h1{
   text-align: center;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 3em;
+  font-weight: bold;
+  color: white;
+  padding-top: 20px;
+
 }
 
 .card {
-  box-shadow: 3px 13px 36px 2px rgba(0,0,0,0.95);
-border-radius: 20px;
+  box-shadow: 3px 13px 36px 2px rgba(0, 0, 0, 0.95);
+  border-radius: 20px;
 }
 
-.container_card{
-background-color: red;
-
-padding-top: 30px;
-
+.imagedelacarte {
+  border-radius: 10px;
 }
 
-
-
-.container_card img {
-  display: block;
-  height: 100px;
-  width: 20px;
+.prix_kg{
+  display: flex;
+  justify-content: space-between;
 }
 
 .tarif {
@@ -164,12 +176,15 @@ padding-top: 30px;
   font-size: 25px;
 }
 
-#section2{
+.section2 {
   text-align: center;
   margin-top: 30px;
+  color: white;
+  font-family: "Shadows Into Light", cursive;
+
 }
 
-.les_images{
+.les_images {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -177,19 +192,138 @@ padding-top: 30px;
 }
 
 .les_images div {
-  margin-bottom: 2% ;
+  margin-bottom: 2%;
 }
 
-.item img ,  .les_images div img{
+.item img,
+.les_images div img {
   height: 220px;
 }
 
-#localisation{
+#localisation {
   text-align: center;
   margin: 2%;
+  background-color: #1260a2;
 }
 
-iframe{
-  width: 100%;
+iframe {
+  width: 90%;
+  height: 400px;
 }
 
+.ml2 {
+  font-weight: bold;
+  font-size: 4.5em;
+}
+
+.ml2 .letter {
+  display: inline-block;
+}
+
+.ml11 {
+  font-weight: 700;
+  font-size: 3.5em;
+}
+
+.ml11 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+}
+
+.ml11 .line {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 3px;
+  background-color: #fff;
+  transform-origin: 0 50%;
+}
+
+.ml11 .line1 {
+  top: 0;
+  left: 0;
+}
+
+.ml11 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+.ml7 {
+  position: relative;
+  font-weight: bold;
+  font-size: 2.5em;
+}
+.ml7 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+.ml7 .letter {
+  transform-origin: 0 100%;
+  display: inline-block;
+  line-height: 1em;
+}
+
+
+.formulaire{
+  color: white;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 62px;
+
+}
+
+.information{
+  padding: 20px;
+
+}
+.information h1 , form h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.information h1::after , form h1::after{
+  content: "";
+  width: 80px;
+  background-color: #140502;
+  position: absolute;
+  height: 5px;
+  display: block;
+}
+
+
+
+.box-inf{
+  justify-content: space-between;
+  padding: 3px 20px;
+  display: flex;
+  font-size: 1.2em;
+  margin: 10px;
+}
+
+.box-inf .texte{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+
+.firt-child-span{
+  font-weight: bold;
+}
+
+form{
+  width: 60%;
+  padding: 20px;
+  text-align: left;
+  color: black;
+}
